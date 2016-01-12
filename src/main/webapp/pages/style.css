@@ -1,0 +1,96 @@
+body {
+	background-color: #fff;
+}
+
+header h1 {
+	color: #1dff03;
+	text-align: center;
+}
+
+.main-content{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+
+#calculator{
+	background-color: #19ff13;
+	border: 2px dashed #807b05;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.table, .score-buttons{
+	padding: 15px 30px;
+}
+
+table{
+	border: none;
+	margin: 0 auto;
+}
+
+table input{
+	border: none;
+	outline: none;
+	text-align: center;
+}
+
+table div{
+	border: 1px solid #000000;
+}
+
+table div.left-coins{
+	border-bottom: 1px solid #fff;
+	border-right: none;
+}
+
+.left-coins{
+	float: left;
+}
+
+.left-coins input, .right-coins input{
+	height: 30px;
+	width: 30px;
+}
+
+.right-coins{
+	float: right;
+}
+
+.total input{
+	clear: both;
+	height: 30px;
+	width: 60px;
+}
+
+.tenth-frame{
+	border-right: none;
+	float: left;
+}
+
+.tenth-total input{
+	width: 92px;
+}
+
+.total-score input{
+	height: 62px;
+	width: 62px;
+}
+
+.score-buttons div{
+	background-color: #fff;
+	height: 40px;
+	overflow: hidden;
+	width: 100px;
+}
+
+.score-buttons input[type="button"], .score-buttons button{
+	background-color: #0eb3ff;
+	cursor: pointer;
+	height: 40px;
+	width: 100px;
+}
+
+.spare{
+	visibility: hidden;
+}
